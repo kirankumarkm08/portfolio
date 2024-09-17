@@ -10,7 +10,7 @@ import Open from "@/components/Open";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KIRANKUMARKM",
+  title: "Frontend developer",
   description: "kirankumarkm's portfolio",
 };
 

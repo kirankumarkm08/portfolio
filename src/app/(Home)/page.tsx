@@ -34,7 +34,7 @@ const Home = () => {
         {/* <Navbar /> */}
         <Hero />
         <Projects />
-        {/* <Contact /> */}
+        <Contact />
       </div>
     </div>
   );
