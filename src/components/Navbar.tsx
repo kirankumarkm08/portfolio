@@ -1,16 +1,15 @@
 "use client";
 
-import React, { use } from "react";
+import React from "react";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const route = useRouter();
-
   const routehandle = () => {
     route.push("#getintouch");
   };
+
   const Nav = [
     {
       name: "Projects",
@@ -18,18 +17,20 @@ const Navbar = () => {
     },
     {
       name: "About",
-      link: "#",
+      link: "#about",
     },
   ];
+
   return (
     <div>
-      <nav className="bg-gradient-hero py-5  z-50 text-white flex justify-center  w-full  fixed px-10">
-        <div className="flex  min-w-[350px] max-w-full justify-between items-center ">
-          {Nav.map((i, index) => (
-            <div className="" key={index}>
-              <Link href={i.link} className="">
-                {i.name}
-              </Link>
+      <nav className="bg-gradient-hero py-5 z-50 text-white flex justify-center w-full fixed px-10">
+        <div className="flex min-w-[350px] max-w-full justify-between items-center">
+          {Nav.map((item, index) => (
+            <div key={index}>
+              {/* <Link href={item.link} className="">
+                {item.name}
+              </Link> */}
+              <a href={item.link}> {item.name}</a>
             </div>
           ))}
           <Button

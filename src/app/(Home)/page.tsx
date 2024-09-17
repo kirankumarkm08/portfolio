@@ -9,26 +9,17 @@ import Reveal from "@/components/Open";
 import Navbar from "@/components/Navbar";
 
 import { useState, useEffect } from "react";
+import Skills from "@/components/Skills";
 const Home = () => {
-  const [reveal, setReveal] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setReveal(false);
-    }, 5000);
-  }, []);
-
   return (
     <div>
-      {reveal ? (
-        <Reveal />
-      ) : (
-        <div className="">
-          <Hero />
-          <Intro />
-          <Projects />
-          <Contact />
-        </div>
-      )}
+      <div className="">
+        <Hero />
+        <Intro />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 };

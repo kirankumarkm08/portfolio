@@ -23,7 +23,7 @@ const Open = () => {
   return (
     <div
       id="reveal"
-      className="absolute h-screen bg-black w-full flex justify-center  items-center "
+      className="absolute top-0  h-screen bg-black w-full flex justify-center  items-center "
     >
       <Animation />
     </div>

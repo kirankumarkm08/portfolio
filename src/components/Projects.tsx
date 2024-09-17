@@ -38,8 +38,8 @@ const Projects = () => {
     },
   ];
   return (
-    <div id="#projects">
-      <div className="bg-gradient-hero min-h-screen    relative py-10  ">
+    <div id="projects">
+      <div className="bg-gradient-hero min-h-screen      relative py-20  ">
         <div className="  ">
           <h1 className=" text-white end-28 top-96   text-[60px] px-20 hidden lg:inline">
             {" "}
