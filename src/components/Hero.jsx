@@ -28,7 +28,7 @@ const Hero = () => {
         <div className=" flex  items-start  justify-start flex-col ">
           <div className=" flex  justify-start  mt-10  max-w-[900px] text-white transition-transform ease-in-out duration-100 ">
             <div className="max-w-[900px] px-10 font-bold">
-              <h1 className="text-[50px] font-bold"> Hello,👋 </h1>
+              <h1 className="text-[50px] font-bold"> Hello 👋 </h1>
               <h1 className="text-[70px]"> I&aposm a Frontend dev</h1>
               <h1 className=" text-[70px]">I build things for Web </h1>
             </div>
