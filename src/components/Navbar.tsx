@@ -25,10 +25,12 @@ const Navbar = () => {
     <div>
       <nav className="bg-gradient-hero py-5  z-50 text-white flex justify-center  w-full  fixed px-10">
         <div className="flex  min-w-[350px] max-w-full justify-between items-center ">
-          {Nav.map((i) => (
-            <Link href={i.link} className="">
-              {i.name}
-            </Link>
+          {Nav.map((i, index) => (
+            <div className="" key={index}>
+              <Link href={i.link} className="">
+                {i.name}
+              </Link>
+            </div>
           ))}
           <Button
             variant="default"

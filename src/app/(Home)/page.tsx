@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div>
-      {/* {reveal ? (
+      {reveal ? (
         <Reveal />
       ) : (
         <div className="">
@@ -28,14 +28,7 @@ const Home = () => {
           <Projects />
           <Contact />
         </div>
-      )} */}
-
-      <div className="">
-        {/* <Navbar /> */}
-        <Hero />
-        <Projects />
-        <Contact />
-      </div>
+      )}
     </div>
   );
 };

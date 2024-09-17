@@ -48,7 +48,9 @@ const Projects = () => {
         </div>
         <div className="gap-2  px-20 w-full   justify-center items-center">
           {card.map((i) => (
-            <Cards items={i} />
+            <div className="" key={i.title}>
+              <Cards items={i} />
+            </div>
           ))}
         </div>
       </div>
