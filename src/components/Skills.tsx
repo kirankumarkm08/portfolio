@@ -9,7 +9,7 @@ const Skills = () => {
         {" "}
         Technologies I have been working with
       </h1>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-3 gap-5">
         {Carddetails.map((items) => (
           <div className="" key={items.name}>
             <SkillCard details={items} />

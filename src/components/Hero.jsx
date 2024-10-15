@@ -24,24 +24,24 @@ const Hero = () => {
 
   return (
     <div className="bg-gradient-hero " ref={homeref}>
-      <div className="sm:min-h-screen w-full  md:flex  items-center  ">
+      <div className="sm:min-h-screen w-full  md:flex  items-center justify-between px-32  pt-10 ">
         <div className=" flex  items-start  justify-start flex-col ">
           <div className=" flex  justify-start  mt-10  max-w-[900px] text-white transition-transform ease-in-out duration-100 ">
             <div className="max-w-[900px] px-10 font-bold">
               <h1 className="text-[50px] font-bold"> Hello 👋 </h1>
-              <h1 className="text-[70px]"> I&aposm a Frontend dev</h1>
-              <h1 className=" text-[70px]">I build things for Web </h1>
+              <h1 className="text-[50px]"> I am kiran kumar</h1>
+              <h1 className=" text-[50px]"> Front end dev </h1>
             </div>
           </div>
           <div className="flex gap-5 text-[25px] items-center justify-start px-10">
             {Socials.map((social) => (
               <Link href={social.link} key={social.name}>
-                <div className=""> {social.logo}</div>
+                <div className="w-[40px] h-[40px]"> {social.logo}</div>
               </Link>
             ))}
           </div>
         </div>
-        <div className=" max-w-[1000px] hidden  sm:inline-flex  " id="Laptop">
+        <div className=" max-w-[500px] hidden  sm:inline-flex  " id="Laptop">
           <Man />
         </div>
       </div>

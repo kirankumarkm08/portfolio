@@ -67,8 +67,4 @@ export const Carddetails = [
     name: "expressjs",
     logo: Express,
   },
-  {
-    name: "Shadcn",
-    logo: Shadcn,
-  },
 ];

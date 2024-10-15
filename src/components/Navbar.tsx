@@ -12,19 +12,23 @@ const Navbar = () => {
 
   const Nav = [
     {
+      name: "About",
+      link: "#about",
+    },
+    {
       name: "Projects",
       link: "#projects",
     },
     {
-      name: "About",
-      link: "#about",
+      name: "Experience",
+      link: "#experience",
     },
   ];
 
   return (
     <div>
-      <nav className="bg-gradient-hero py-5 z-50 text-white flex justify-center w-full fixed px-10">
-        <div className="flex min-w-[350px] max-w-full justify-between items-center">
+      <nav className=" py-5 z-50 text-white flex justify-center w-full fixed px-10 ">
+        <div className="flex min-w-[350px] max-w-full justify-between items-center backdrop-blur-sm rounded-full border px-4 py-2 drop-shadow-sm">
           {Nav.map((item, index) => (
             <div key={index}>
               {/* <Link href={item.link} className="">
@@ -35,7 +39,7 @@ const Navbar = () => {
           ))}
           <Button
             variant="default"
-            className="bg-red-800"
+            className=" rounded-full"
             size="sm"
             onClick={routehandle}
           >

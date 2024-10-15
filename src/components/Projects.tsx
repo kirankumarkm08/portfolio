@@ -46,7 +46,7 @@ const Projects = () => {
             Projects
           </h1>
         </div>
-        <div className="gap-2  px-20 w-full   justify-center items-center">
+        <div className="gap-2  px-20 w-full  flex flex-col  justify-between items-center">
           {card.map((i) => (
             <div className="" key={i.title}>
               <Cards items={i} />

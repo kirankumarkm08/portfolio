@@ -7,6 +7,7 @@ import Contact from "@/components/Contact";
 import Intro from "@/components/Intro";
 import Reveal from "@/components/Open";
 import Navbar from "@/components/Navbar";
+import Experience from "@/components/Experience";
 
 import { useState, useEffect } from "react";
 import Skills from "@/components/Skills";
@@ -16,6 +17,7 @@ const Home = () => {
       <div className="">
         <Hero />
         <Intro />
+        <Experience />
         <Skills />
         <Projects />
         <Contact />

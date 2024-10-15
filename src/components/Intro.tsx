@@ -11,8 +11,8 @@ const Intro = () => {
           About
         </h1>
       </div>
-      <h1 className="w-[800px]">
-        Frontend Developer with 1 year of experience specializing in creating
+      <h1 className="max-w-[800px] mt-20 font-serif">
+        Frontend Developer with year of experience specializing in creating
         responsive and user-friendly web applications for decentralized
         exchanges (DEX). Proficient in JavaScript frameworks like React and
         Next.js, with a strong focus on optimizing performance and enhancing
