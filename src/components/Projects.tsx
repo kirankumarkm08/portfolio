@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "A HOSPITAL STAFF MANAGEMENT is a comprehensive software platform that automates hospital operations, including patient records, appointments, billing, and inventory. It improves workflow, enhances communication between departments, ensures data security, and streamlines administrative tasks, leading to better resource management and improved patient care.",
       image: Hospital,
-      link: "https://imdbclone1.vercel.app/",
+      link: "https://coalition-jade.vercel.app/",
     },
     {
       title: "Real estate ",
