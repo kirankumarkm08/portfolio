@@ -8,9 +8,9 @@ import IMDB from "/public/thumbnail/IMDB.jpg";
 const Projects = () => {
   const card = [
     {
-      title: "Web3 Crowdfunding on Solana",
+      title: "Web3 aggregator",
       description:
-        "CrowdFunder is a next-generation decentralized crowdfunding platform built on Solana and powered by Next.js. Our platform leverages Solana's high-speed blockchain to offer a secure, transparent, and efficient fundraising experience.",
+        "A Web3 aggregator consolidates data, services, or assets from multiple decentralized sources into a single platform, enhancing user experience by offering seamless access and interaction with various Web3 protocols.",
       image: Crowdfunding,
       link: "",
       tech: "",
@@ -22,13 +22,13 @@ const Projects = () => {
       image: Hospital,
       link: "https://coalition-jade.vercel.app/",
     },
-    {
-      title: "Real estate ",
-      description:
-        "A decentralized, blockchain-powered real estate platform offering tokenized property ownership. Enables secure, transparent transactions with smart contracts, eliminating intermediaries. Buyers and sellers can trade property assets as NFTs, streamlining the process. Ideal for investors seeking fractional ownership, global access, and reduced fees in the evolving digital real estate market.",
-      image: Realestate,
-      link: "",
-    },
+    // {
+    //   title: "Real estate ",
+    //   description:
+    //     "A decentralized, blockchain-powered real estate platform offering tokenized property ownership. Enables secure, transparent transactions with smart contracts, eliminating intermediaries. Buyers and sellers can trade property assets as NFTs, streamlining the process. Ideal for investors seeking fractional ownership, global access, and reduced fees in the evolving digital real estate market.",
+    //   image: Realestate,
+    //   link: "",
+    // },
     {
       title: "IMDB CLONE",
       description:
@@ -47,8 +47,11 @@ const Projects = () => {
           </h1>
         </div>
         <div className="gap-2  px-20 w-full  flex flex-col  justify-between items-center">
-          {card.map((i) => (
-            <div className="" key={i.title}>
+          {card.map((i, index) => (
+            <div
+              className={`project-item ${index % 2 === 0 ? "left" : "right"}`}
+              key={i.title}
+            >
               <Cards items={i} />
             </div>
           ))}

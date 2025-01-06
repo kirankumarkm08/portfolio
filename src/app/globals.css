@@ -64,3 +64,25 @@
     @apply bg-background text-foreground;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add to your global stylesheet or inside the component */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  width: 45%;
+}
+
+.project-item.left {
+  align-self: flex-start;
+}
+
+.project-item.right {
+  align-self: flex-end;
+}

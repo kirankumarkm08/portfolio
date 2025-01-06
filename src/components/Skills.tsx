@@ -5,11 +5,11 @@ import { Carddetails } from "@/constants";
 const Skills = () => {
   return (
     <div className="bg-gradient-hero h-fit py-10 items-center flex flex-col px-10">
-      <h1 className="text-white text-[60px]">
+      <h1 className="text-white lg:text-[60px]">
         {" "}
         Technologies I have been working with
       </h1>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-3 gap-5 border-y-2 rounded-md py-2">
         {Carddetails.map((items) => (
           <div className="" key={items.name}>
             <SkillCard details={items} />
