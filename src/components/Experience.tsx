@@ -23,11 +23,11 @@ const Experience = () => {
             operational issues.`,
   ];
   return (
-    <div className="bg-gradient-project flex flex-col items-center min-h-screen py-5 text-white ">
-      <h1
-        className="text-white text-[50px] font-extrabold mt-20"
-        id="experience"
-      >
+    <div
+      className="bg-gradient-project flex flex-col items-center min-h-screen py-5 text-white "
+      id="experience"
+    >
+      <h1 className="text-white text-[50px] font-extrabold mt-20 ">
         Experience
       </h1>
       <div className="mx-10 md:w-[400px] lg:w-[500px] min-h-[600px]  rounded-lg flex flex-col items-center border-y-2 ">
@@ -35,7 +35,7 @@ const Experience = () => {
         <h2 className=" font-semibold">Bangalore</h2>
         <ol className="px-10  font-extralight">
           {exp.map((i) => (
-            <li>{i}</li>
+            <li key={i}>{i}</li>
           ))}
         </ol>
         <h1 className="my-5"> jan 2023 to Present</h1>

@@ -22,13 +22,12 @@ const Projects = () => {
       image: Hospital,
       link: "https://coalition-jade.vercel.app/",
     },
-    // {
-    //   title: "Real estate ",
-    //   description:
-    //     "A decentralized, blockchain-powered real estate platform offering tokenized property ownership. Enables secure, transparent transactions with smart contracts, eliminating intermediaries. Buyers and sellers can trade property assets as NFTs, streamlining the process. Ideal for investors seeking fractional ownership, global access, and reduced fees in the evolving digital real estate market.",
-    //   image: Realestate,
-    //   link: "",
-    // },
+    {
+      title: "E-commerce web site",
+      description: `E-commerce is the buying and selling of goods and services online. It enables businesses to reach global customers, offering convenience, diverse payment options, and seamless transactions. E-commerce revolutionizes shopping with 24/7 accessibility, personalization, and a wide product selection.`,
+      image: Realestate,
+      link: "",
+    },
     {
       title: "IMDB CLONE",
       description:
